@@ -8,28 +8,16 @@
 # DDD (Domain-driven design)
 * Trabalha com estruturas isoladas de dominios na aplicação: EX
     
-    src
-        v1/api
-            domains
-                domainName
-                    controllers
-                        DomainController.js
-                    factories
-                        index.js
-                    repositories
-                        DomainRepository.js
-                    routes
-                        index.js -> carregar todas as rotas dinamicamente
-                        //rotas
-                    services
-                        DomainService.js
+      src
+        controllers
+            controller.js   
         database
             mongo
                 index.js
                 schemas
                     index.js
                     meuModel.js
-        routes
-            index.js
+        
+        routes.js
         app.js    
 
